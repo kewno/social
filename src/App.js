@@ -2,6 +2,14 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
+  function getData(callBack) {
+    $.ajax('http://test1.web-gu.ru', {
+      success: callBack
+    })
+  }
+
+
   return (
     <div className="App">
       <header className="App-header">
