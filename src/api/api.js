@@ -1,4 +1,5 @@
-import * as axios from "axios";
+//import * as axios from "axios";
+const axios = require('axios');
 
 const instanse = axios.create({
     baseURL : 'https://social-network.samuraijs.com/api/1.0/',
