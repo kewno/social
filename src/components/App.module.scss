@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Tahoma, sans-serif;
+}
+.mainSection {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+main {
+    max-width: 1240px;
+    width: 100%;
+    p {
+        color: red;
+    }
+}

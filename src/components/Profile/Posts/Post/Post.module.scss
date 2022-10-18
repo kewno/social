@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.wraper {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    margin: 15px;
+
+    .avatar {
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+    }
+    .text {
+        color: blueviolet;
+        font-size: 18px;
+    }
+    .like {
+        font-size: 14px;
+        margin-left: 100%;
+    }
+}

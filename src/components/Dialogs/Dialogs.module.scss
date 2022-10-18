@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.wraper {
+    width: 100%;
+    //margin: 0 auto;
+    display: flex;
+    margin: 15px;
+
+    .dialogs {
+        width: 220px;
+    }
+
+    .messages {
+        .messagesItem {
+            margin: 20px 10px;
+        }
+    }
+}
